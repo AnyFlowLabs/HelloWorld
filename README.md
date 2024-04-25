@@ -65,7 +65,7 @@ The contract has been deployed on the following networks:
 | Polygon Amoy | [0x24fb17d461b0b0525F8671096bFBc66A57C1573b](https://amoy.polygonscan.com/address/0x24fb17d461b0b0525F8671096bFBc66A57C1573b) |
 | Polygon | [0x24fb17d461b0b0525f8671096bfbc66a57c1573b](https://polygonscan.com/address/0x24fb17d461b0b0525f8671096bfbc66a57c1573b) |
 
-Leave your mark on the blockchain by calling the hello() function on the contract!
+Leave your mark on the blockchain by calling the ``hello()`` function on the contract!
 
 # License
 
