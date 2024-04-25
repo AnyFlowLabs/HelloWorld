@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-project",
+  "name": "anyflow-demo-hello-world",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "hardhat": "^2.22.3"
