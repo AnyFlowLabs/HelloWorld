@@ -56,6 +56,17 @@ This is what you would need to do if you were to deploy this contract manually:
 
 If you have any feature requests or suggestions, please send it to us on [Discord](https://discord.gg/aCygGwBWya). Do not forget to check if the feature is already in the roadmap.
 
+# Deployments
+
+The contract has been deployed on the following networks:
+
+| Network | Address |
+| --- | --- |
+| Polygon Amoy | [0x24fb17d461b0b0525F8671096bFBc66A57C1573b](https://amoy.polygonscan.com/address/0x24fb17d461b0b0525F8671096bFBc66A57C1573b) |
+| Polygon | [0x24fb17d461b0b0525f8671096bfbc66a57c1573b](https://polygonscan.com/address/0x24fb17d461b0b0525f8671096bfbc66a57c1573b) |
+
+Leave your mark on the blockchain by calling the hello() function on the contract!
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
