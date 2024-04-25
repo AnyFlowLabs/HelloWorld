@@ -1,6 +1,6 @@
 <!-- img -->
 <p align="center">
-  <img src="./img/logo1.png"/>
+  <img src="./img/logo1.png" style="max-width: 100%;" height="300"/>
 </p>
 
 # Hello World 👋🏻
