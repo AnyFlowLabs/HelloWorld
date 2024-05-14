@@ -12,11 +12,11 @@ export async function main() {
     console.log(`Waiting for AnyflowHelloWorld to be deployed... tx: ${deploymentTransaction.hash}`);
 
     const publicClient = await hre.viem.getPublicClient();
-    const { contractAddress } = await publicClient.waitForTransactionReceipt({
-        hash: deploymentTransaction.hash,
-    });
+    // const { contractAddress } = await publicClient.waitForTransactionReceipt({
+    //     hash: deploymentTransaction.hash,
+    // });
 
-    console.log('AnyflowHelloWorld deployed to:', contractAddress);
+    // console.log('AnyflowHelloWorld deployed to:', contractAddress);
 }
 
 main()
