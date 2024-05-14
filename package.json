@@ -2,7 +2,8 @@
   "name": "anyflow-demo-hello-world",
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat run ./scripts/deploy.ts"
+    "deploy": "hardhat run ./scripts/deploy.ts",
+    "hello": "hardhat run ./scripts/hello.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^0.15.1",
