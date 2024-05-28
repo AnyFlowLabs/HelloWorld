@@ -19,7 +19,7 @@ This project is a simple example of how to deploy the ``HelloWorld.sol`` contrac
 
 The platform will automatically install the dependencies for you and handle all the deployment process including setting up the private keys, RPC providers, gas fees and more!
 
-This project is build using the Hardhat framework.
+This project is built using the Hardhat framework.
 
 This is what you would need to do if you were to deploy this contract manually:
 
