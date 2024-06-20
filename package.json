@@ -1,5 +1,8 @@
 {
   "name": "anyflow-demo-hello-world",
+  "engines": {
+    "node": "^20"
+  },
   "scripts": {
     "compile": "hardhat compile",
     "deploy": "hardhat run ./scripts/deploy.ts",
