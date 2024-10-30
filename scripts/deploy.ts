@@ -7,16 +7,11 @@ export async function main() {
         "Hello, World!", // _helloMessage
     ] as const;
 
-    const { deploymentTransaction } = await hre.viem.sendDeploymentTransaction("AnyflowHelloWorld", args);
+    const contract = await hre.viem.deployContract("AnyflowHelloWorld", args);
 
-    console.log(`Waiting for AnyflowHelloWorld to be deployed... tx: ${deploymentTransaction.hash}`);
+    const contractAddress = contract.address
 
-    const publicClient = await hre.viem.getPublicClient();
-    // const { contractAddress } = await publicClient.waitForTransactionReceipt({
-    //     hash: deploymentTransaction.hash,
-    // });
-
-    // console.log('AnyflowHelloWorld deployed to:', contractAddress);
+    console.log('AnyflowHelloWorld deployed to:', contractAddress);
 }
 
 main()

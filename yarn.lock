@@ -605,9 +605,9 @@
     undici "^5.14.0"
 
 "@nomicfoundation/hardhat-viem@^2.0.1":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@nomicfoundation/hardhat-viem/-/hardhat-viem-2.0.2.tgz#91d7a6d3e66c93bc39b2322420a1bad82360df7d"
-  integrity sha512-Ek2lGjrt15IdDkq5+24CGeAQzlr/4UwUx0UKx6IVW/QOHGr1bk21KipUugFIyEjEltcgyUJcPJ02XFTcjgnwZA==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@nomicfoundation/hardhat-viem/-/hardhat-viem-2.0.5.tgz#b2212b0399957b35509df4a36231b6a86bac0327"
+  integrity sha512-T3xqRzPwhKawqjKvqUT1fZUD85JxFhHjb/nAiJiuYQzaR6NyDPEJVwcc3CU5uwB79BwgQlSHDGOKjSNYmQP+VA==
   dependencies:
     abitype "^0.9.8"
     lodash.memoize "^4.1.2"
