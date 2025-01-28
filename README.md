@@ -10,7 +10,7 @@ This project is a simple example of how to deploy the ``HelloWorld.sol`` contrac
 # Usage
 
 1. Fork this repository
-2. Log into [AnyFlow](https://app-staging.anyflow.pro)
+2. Log into [AnyFlow](https://app.anyflow.pro)
 3. Select this repository
 4. Select your chains
 5. Just wait for the deployment to finish
