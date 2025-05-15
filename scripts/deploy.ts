@@ -4,7 +4,7 @@ export async function main() {
     console.log('Deploying AnyflowHelloWorld...')
 
     const args = [
-        "Hello, World!", // _helloMessage
+        process.env.HELLO_MESSAGE || "Hello, World!", // _helloMessage
     ] as const;
 
     const contract = await hre.viem.deployContract("AnyflowHelloWorld", args);
